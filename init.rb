@@ -1,5 +1,5 @@
-Redmine::Plugin.register :TaskUpdatePlugin do
-  menu :application_menu, :TaskUpdatePlugin, { :controller => 'task_update_plugin', :action => 'index' }, :caption => 'TaskUpdatePlugin'
+Redmine::Plugin.register 'plugin-task-update-redmine' do
+  menu :application_menu, 'plugin-task-update-redmine', { :controller => 'task_update_plugin', :action => 'index' }, :caption => 'TaskUpdatePlugin'
   name 'Task Update'
   author 'Oleg Artyukh'
   description 'Plugin for sending information when updating the task for Redmine'

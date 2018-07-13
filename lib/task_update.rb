@@ -66,6 +66,10 @@ module TaskUpdate
                 },
               }.to_json
 
+              #puts 'REQ.BODY========================================'
+              #puts req.body
+              #puts 'REQ.BODY========================================'
+
               begin
                 res = Net::HTTP.start(uri.hostname, uri.port) do |http|
                   http.request(req)
