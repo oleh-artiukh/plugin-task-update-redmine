@@ -1,2 +1,2 @@
-# Plugin's routes
-# See: http://guides.rubyonrails.org/routing.html
+get 'task_update_plugin', :to => 'task_update_plugin#index'
+post 'save_domain', :to => 'task_update_plugin#save_domain'
