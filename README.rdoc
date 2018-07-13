@@ -1,10 +1,13 @@
-Plugin for sending information when updating the task for Redmine
 
-Инструкция:
+<h1>Plugin for sending information when updating the task for Redmine</h1>
 
-1 - bundle exec rake redmine:plugins:migrate
 
-2 - https://prnt.sc/k625tg Перейти к настройкам плагина
+<h3>Инструкция:</h3>
+1 - $cd rails_app/plugins -> $git clone https://github.com/uartkhy/plugin-task-update-redmine.git
 
-3 - https://prnt.sc/k626f1 Установить URL на который будет отправляться JSON-строка при обновлении задач
+2 - bundle exec rake redmine:plugins:migrate
+
+3 - https://prnt.sc/k625tg Перейти к настройкам плагина
+
+4 - https://prnt.sc/k626f1 Установить URL на который будет отправляться JSON-строка при обновлении задач
 
