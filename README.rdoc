@@ -1,9 +1,10 @@
 
-<h1>Plugin for sending information when updating the task for Redmine</h1>
+Plugin for sending information when updating the task for Redmine
 
 
-<h3>Инструкция:</h3>
-1 - $cd rails_app/plugins -> $git clone https://github.com/uartkhy/plugin-task-update-redmine.git
+Инструкция:
+
+1 - $cd your_redmine/plugins -> $git clone https://github.com/uartkhy/plugin-task-update-redmine.git
 
 2 - bundle exec rake redmine:plugins:migrate
 
